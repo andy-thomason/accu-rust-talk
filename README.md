@@ -88,7 +88,7 @@ Rust compiles each library to a single object file which makes
 linking much faster.
 
 Code is always compiled from source except for some borrwings from the C
-world such as `rusqlite`. Rustacians condsider such borrowings to be an
+world such as `rusqlite`. Rustacians consider such borrowings to be an
 alien concept and seek to eliminate `C` from the civilised world, hence.
 
 https://github.com/ctz/rustls
@@ -99,4 +99,12 @@ Rust kernels and complete operating systems are in the pipeline, too.
 
 Rust has been the **most loved programming langauge** on `Stack Overflow`
 since 2016.
+
+If you are interested in Rust's procedural macros, which enable you to customise
+the compiler, check out this tutorial:
+
+https://github.com/dtolnay/proc-macro-workshop
+
+
+
 
